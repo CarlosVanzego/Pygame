@@ -25,7 +25,7 @@ def draw(player, elapsed_time, blasts):
     time_text = FONT.render(f"Time: {round(elapsed_time)}s", 1, "white")
     WIN.blit(time_text, (10, 10))
 
-    pygame.draw.rect(WIN, "blue", player)
+    pygame.draw.rect(WIN, "yellow", player)
 
     for blast in blasts:
         pygame.draw.rect(WIN, "red", blast)
