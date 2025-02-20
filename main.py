@@ -1,3 +1,7 @@
+# Galaxy Wars Game
+# 
+# 
+# 
 # I start by importing the 'pygame' module; Pygame is a set of Python modules designed for writing games. It is written on top of the SDL (Simple DirectMedia Layer) library. This allows me to create fully featured games and multimedia programs in the python language.
 import pygame
 # Then I am imporing the 'time' module; the time module provides various functions to manipulate time values.
