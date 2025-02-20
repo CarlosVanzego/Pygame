@@ -36,3 +36,7 @@ class App:
 if __name__ == "__main__" :
     theApp = App()
     theApp.on_execute()
+
+
+
+# When I run this program, all that should happen is a blank PyGame window should pop up.
