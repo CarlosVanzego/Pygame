@@ -24,8 +24,11 @@ PLAYER_WIDTH = 40
 PLAYER_HEIGHT = 60
 # I created a contant variable called "PLAYER_VEL" (short for player velocity); I set it equal to '5' so that it will move the player 5 pixels in whichever direction.
 PLAYER_VEL = 5
+# this line is the width of the blasts.
 BLAST_WIDTH = 10
+# this line is the height of the blasts.
 BLAST_HEIGHT = 20
+# this line is the velocity of the blasts.
 BLAST_VEL = 3
 # Here I am creating a font object to set the font of the text on the screen. I used the FONT constant variable as I do not want this to change, then I assigned 'pygame.font.SysFont' and passed the font 'comicsans', and the size of the font which I set to 30.
 FONT = pygame.font.SysFont("comicsans", 30)
