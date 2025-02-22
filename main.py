@@ -14,7 +14,7 @@ pygame.font.init()
 WIDTH, HEIGHT  = 1000, 800
 # 'WIN' stands for window, and I set this equal to pygame.display.set_mode then passed a tuple with the width and the height.
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
-# Here I am setting the caption that will display in the game window by using pygame.set.set_caption and the passing the string 'Galaxy Wars' which is the name of my game.
+# Here I am setting the caption that will display in the game window by using pygame.set.set_caption and the passing the string 'Space Dodge' which is the name of my game.
 pygame.display.set_caption("Space Dodge")
 # this line is for the background image of the game. 'BG' is a constant variable I created that is short for "background". I wrote pygame.transform.scale and passed the image to scale the image; I wanted the image to scale the size of the whoel screen so I passed 'WIDTH, HEIGHT'. I wrote pygame.image.load to load the image that I am using for the game that is within the 'bg.jpeg' file.
 BG = pygame.transform.scale(pygame.image.load("bg.jpeg"), (WIDTH, HEIGHT))
